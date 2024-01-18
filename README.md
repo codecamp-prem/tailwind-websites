@@ -1,3 +1,3 @@
 # About
 
-Some webiste made in Tailwind CSS
+Some websites made in Tailwind CSS
