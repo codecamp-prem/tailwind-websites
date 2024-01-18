@@ -1,4 +1,4 @@
-# Simple Tailwind CSS Starter
+# About
 
 Clipboard Landing page
 
