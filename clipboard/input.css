@@ -23,6 +23,10 @@
   @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
 }
 
+.hrefButton {
+  @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80;
+}
+
 body {
   background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
@@ -33,4 +37,9 @@ body {
   body {
     background-image: url("../images/bg-header-mobile.png");
   }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(120deg)
+    brightness(101%) contrast(94%);
 }
