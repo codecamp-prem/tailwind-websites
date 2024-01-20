@@ -33,3 +33,15 @@ function validURL(str) {
   );
   return !!pattern.test(str);
 }
+
+// hambuger
+const hamBtn = document.getElementById("menu-btn");
+const hamMenu = document.getElementById("menu");
+
+hamBtn.addEventListener("click", navToggle);
+
+function navToggle() {
+  hamBtn.classList.toggle("open");
+  hamMenu.classList.toggle("flex");
+  hamMenu.classList.toggle("hidden");
+}
