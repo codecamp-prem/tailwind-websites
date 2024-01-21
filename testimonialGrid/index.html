@@ -13,7 +13,58 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Testimonial Grid: Tailwind Grid class demo</title>
   </head>
-  <body>
-    Font test
+  <body class="bg-gray-200">
+    <!--Global Container-->
+    <div class="container mx-auto max-w-7xl p-2 md:p-10">
+      <!--Grid Container-->
+      <div class="text-white">
+        <!--Box 1-->
+        <div class="relative p-10 rounde-xl bg-purple-700">
+          <!--Quotes image-->
+          <img
+            src="images/bg-pattern-quotation.svg"
+            alt="pattern quotation"
+            class="absolute top-3 right-10 scale-125 md:top-7 md:right-24 md:scale-150"
+          />
+          <!--Box Header-->
+          <div class="flex z-10 space-x-4">
+            <img
+              src="images/image-daniel.jpg"
+              alt="daniel"
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <div class="text-sm">
+              <h4 class="opacity-90">Daniel Radcliffe</h4>
+              <p class="opacity-50">Boy who lived</p>
+            </div>
+          </div>
+          <!--Large Text-->
+          <p class="relative z-10 mt-6 text-xl">
+            "I received a job offer mid-course, and stepping into the working
+            world felt like crossing the threshold from the enchanting realm of
+            Harry Potter into the ordinary realm of Muggles. However, to my
+            surprise, the subjects I had learned in my studies were not only
+            relevant but even more cutting-edge in the company I joined. It was
+            as if I had brought a piece of the magical world with me, and I
+            couldn't help but feel that I had truly received every penny's worth
+            of my education."
+          </p>
+          <!--Small Text-->
+          <p class="mt-6 opacity-60">
+            "I was an living in basement for many years before I joined the
+            Hogwarts. Intrigued and with gold coins my parents left me, I
+            decided to dip my toes in the magical waters by signing up for the
+            free intro course. And now, since completing the course, I have
+            successfully made the transition. It feels like I've entered a
+            parallel universe where lines of code hold the power to create
+            wonders. The junior year was my very own Hogwarts, where I
+            discovered my true potential and unlocked the door to a world of
+            endless possibilities. I am forever grateful for the transformative
+            experience that has allowed me to wield the magic of programming and
+            embark on a new journey in the realm of technology."
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
