@@ -10,6 +10,7 @@
   "author": "Brad Traversy tailwind css starter kit",
   "license": "MIT",
   "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
     "tailwindcss": "^3.0.24"
   }
 }
