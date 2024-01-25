@@ -502,6 +502,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.relative {
+  position: relative;
+}
+
+.-ml-5 {
+  margin-left: -1.25rem;
+}
+
 .items-center {
   align-items: center;
 }
@@ -523,6 +531,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 1280px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.logo {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  height: 40px;
+  width: auto;
+}
+
+.logo-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .row {

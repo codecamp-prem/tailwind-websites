@@ -5,11 +5,15 @@
 .header {
   @apply bg-gradient-to-b from-orange-100 to-transparent;
 }
-
 .container {
   @apply max-w-screen-xl mx-auto px-6;
 }
-
+.logo {
+  @apply absolute top-6 left-6 w-auto h-[40px];
+}
+.logo-img {
+  @apply w-full h-full object-cover;
+}
 .row {
   @apply flex flex-wrap;
 }
