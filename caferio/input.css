@@ -19,3 +19,9 @@
 .header-badge {
   @apply text-xs uppercase font-medium bg-amber-100 px-3 py-2 rounded-3xl inline-block text-orange-800;
 }
+.header-heading {
+  @apply mt-5 text-5xl lg:text-4xl font-bold capitalize md:w-9/12 lg:w-full;
+}
+.header-delivery {
+  @apply bg-orange-600 text-white rotate-3 inline-block px-2 py-1;
+}
