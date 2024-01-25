@@ -25,3 +25,6 @@
 .header-delivery {
   @apply bg-orange-600 text-white rotate-3 inline-block px-2 py-1;
 }
+.header-paragraph {
+  @apply mt-5 text-base text-gray-500;
+}
