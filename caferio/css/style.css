@@ -502,6 +502,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.items-center {
+  align-items: center;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
 .header {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
   --tw-gradient-from: #ffedd5;
@@ -521,6 +529,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
   flex-wrap: wrap;
 }
+
+/*Header left col*/
 
 .header-left-col {
   width: 100%;
@@ -636,5 +646,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   .header-customers-ul-li-last {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+}
+
+/*Header right col*/
+
+@media (min-width: 1024px) {
+  .header-right-col {
+    width: 50%;
+  }
+}
+
+.header-right-img {
+  height: auto;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 1280px) {
+  .xl\:pt-20 {
+    padding-top: 5rem;
   }
 }

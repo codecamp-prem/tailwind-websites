@@ -13,6 +13,7 @@
 .row {
   @apply flex flex-wrap;
 }
+/*Header left col*/
 .header-left-col {
   @apply w-full lg:w-6/12 p-5;
 }
@@ -39,4 +40,11 @@
 }
 .header-customers-ul-li-last {
   @apply ml-3 text-sm md:text-xs font-medium text-orange-800;
+}
+/*Header right col*/
+.header-right-col {
+  @apply lg:w-6/12;
+}
+.header-right-img {
+  @apply w-full h-auto object-cover;
 }
