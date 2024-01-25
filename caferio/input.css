@@ -73,6 +73,9 @@
   @apply fixed top-6 right-6 items-center justify-center w-[40px] h-[40px] rounded-full bg-orange-500 cursor-pointer text-white text-lg z-30;
 }
 /*Category*/
+.category-item {
+  @apply w-full sm:w-6/12 md:w-4/12 lg:w-2/12 xl:w-[20%] p-3;
+}
 .category {
   @apply my-20 md:my-10;
 }

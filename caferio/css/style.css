@@ -531,10 +531,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
-.w-6\/12 {
-  width: 50%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -841,6 +837,35 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 /*Category*/
+
+.category-item {
+  width: 100%;
+  padding: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .category-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .category-item {
+    width: 33.333333%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-item {
+    width: 16.666667%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .category-item {
+    width: 20%;
+  }
+}
 
 .category {
   margin-top: 5rem;
