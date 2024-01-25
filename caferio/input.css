@@ -52,7 +52,7 @@
 
 /*Nav*/
 .navigation {
-  @apply fixed top-0 -right-full w-full h-full bg-black/40;
+  @apply fixed top-0 w-full h-full bg-black/40 transition-all duration-500 z-20;
 }
 .nav-container {
   @apply absolute top-0 right-0 w-full md:w-6/12 lg:w-4/12 xl:w-3/12 h-full bg-orange-50 flex items-center;
@@ -64,8 +64,8 @@
   @apply block px-4 py-3 w-full text-orange-800 capitalize text-base hover:bg-orange-700 hover:text-white hover:pl-6 transition-all duration-300;
 }
 .nav-close {
-  @apply absolute top-4 cursor-pointer text-orange-800;
+  @apply absolute top-4 cursor-pointer text-orange-800 ml-2;
 }
 .nav-open {
-  @apply fixed top-6 right-6 flex items-center justify-center w-[40px] h-[40px] rounded-full bg-orange-500 cursor-pointer text-white text-lg;
+  @apply fixed top-6 right-6 items-center justify-center w-[40px] h-[40px] rounded-full bg-orange-500 cursor-pointer text-white text-lg z-10;
 }
