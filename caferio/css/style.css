@@ -541,6 +541,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -553,12 +557,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.25rem;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .skew-y-2 {
@@ -1214,7 +1226,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pricing-card {
   border-radius: 0.5rem;
-  border-width: 1px;
+  border-width: 2px;
   border-style: dashed;
   --tw-border-opacity: 1;
   border-color: rgb(253 224 71 / var(--tw-border-opacity));
@@ -1252,6 +1264,32 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pricing-message {
   font-size: 1rem;
   line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.pricing-list {
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.pricing-list-icon {
+  margin-right: 0.75rem;
+  display: flex;
+  height: 25px;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
+}
+
+.pricing-list-feature {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: capitalize;
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
