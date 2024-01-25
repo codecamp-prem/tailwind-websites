@@ -113,3 +113,12 @@
 .popular-dishes-total-rater {
   @apply inline-block text-sm text-gray-500;
 }
+.popular-dishes-price-container {
+  @apply mt-1 flex justify-between;
+}
+.popular-dishes-price {
+  @apply text-base text-orange-700 font-medium;
+}
+.popular-dishes-discount {
+  @apply line-through text-base text-gray-400;
+}

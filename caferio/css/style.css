@@ -1092,6 +1092,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.popular-dishes-price-container {
+  margin-top: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-dishes-price {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(194 65 12 / var(--tw-text-opacity));
+}
+
+.popular-dishes-discount {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+
 @media (min-width: 1280px) {
   .xl\:pt-20 {
     padding-top: 5rem;
