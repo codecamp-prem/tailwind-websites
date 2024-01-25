@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.image-cover {
+  @apply w-full h-full object-cover;
+}
 .header {
   @apply bg-gradient-to-b from-orange-100 to-transparent;
 }
@@ -11,9 +13,7 @@
 .logo {
   @apply absolute top-6 left-6 w-auto h-[40px];
 }
-.logo-img {
-  @apply w-full h-full object-cover;
-}
+
 .row {
   @apply flex flex-wrap;
 }
@@ -39,9 +39,6 @@
 .header-customers-li {
   @apply block w-[40px] h-[40px] overflow-hidden rounded-full border-[3.5px] border-orange-50 -ml-3 first:-ml-0;
 }
-.header-customers-li-img {
-  @apply w-full h-full object-cover;
-}
 .header-customers-ul-li-last {
   @apply ml-3 text-sm md:text-xs font-medium text-orange-800;
 }
@@ -54,9 +51,8 @@
 }
 
 /*Nav*/
-/* top-0 left-0 bottom-0 right-0 = inset-0*/
 .navigation {
-  @apply fixed inset-0 w-full h-full bg-black/40;
+  @apply fixed top-0 -right-full w-full h-full bg-black/40;
 }
 .nav-container {
   @apply absolute top-0 right-0 w-full md:w-6/12 lg:w-4/12 xl:w-3/12 h-full bg-orange-50 flex items-center;
@@ -66,4 +62,10 @@
 }
 .nav-link {
   @apply block px-4 py-3 w-full text-orange-800 capitalize text-base hover:bg-orange-700 hover:text-white hover:pl-6 transition-all duration-300;
+}
+.nav-close {
+  @apply absolute top-4 cursor-pointer text-orange-800;
+}
+.nav-open {
+  @apply fixed top-6 right-6 flex items-center justify-center w-[40px] h-[40px] rounded-full bg-orange-500 cursor-pointer text-white text-lg;
 }
