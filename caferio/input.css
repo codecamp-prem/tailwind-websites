@@ -143,7 +143,7 @@
   @apply relative px-10 pt-20 pb-10 rounded-lg;
 }
 .pricing-label {
-  @apply absolute top-[20px] right-[-15px] py-2 px-5 bg-yellow-500 font-bold uppercase text-gray-800 text-xs after:absolute after:top-[12px] after:right-[6px] after:h-full after:w-10 after:bg-yellow-600 after:-rotate-[30deg] after:-z-10;
+  @apply absolute top-[20px] right-[-15px] py-2 px-5 bg-yellow-500 font-bold uppercase text-gray-800 text-xs after:absolute after:top-[12px] after:right-[6px] after:h-full after:w-10 after:bg-yellow-600 after:-rotate-[29deg] after:-z-10;
 }
 .pricing-heading {
   @apply text-center uppercase text-xl font-semibold text-orange-700;
