@@ -593,3 +593,48 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
+
+.header-customers-ul {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-customers-li {
+  margin-left: -0.75rem;
+  display: block;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-radius: 9999px;
+  border-width: 3.5px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 247 237 / var(--tw-border-opacity));
+}
+
+.header-customers-li:first-child {
+  margin-left: -0px;
+}
+
+.header-customers-li-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header-customers-ul-li-last {
+  margin-left: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(154 52 18 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .header-customers-ul-li-last {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
