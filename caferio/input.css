@@ -13,10 +13,13 @@
 .logo {
   @apply absolute top-6 left-6 w-auto h-[40px];
 }
-
 .row {
   @apply flex flex-wrap;
 }
+.heading {
+  @apply text-lg uppercase text-orange-500 font-medium mb-5 underline decoration-orange-500 decoration-wavy decoration-4 underline-offset-[5px];
+}
+
 /*Header left col*/
 .header-left-col {
   @apply w-full lg:w-6/12 p-5;
@@ -68,4 +71,17 @@
 }
 .nav-open {
   @apply fixed top-6 right-6 items-center justify-center w-[40px] h-[40px] rounded-full bg-orange-500 cursor-pointer text-white text-lg z-10;
+}
+/*Category*/
+.category {
+  @apply my-20 md:my-10;
+}
+.category-block {
+  @apply block w-full h-[120px] md:h-[140px] overflow-hidden rounded-md relative;
+}
+.category-layer {
+  @apply absolute inset-0 w-full h-full bg-black/60 flex items-center justify-center;
+}
+.category-name {
+  @apply text-white text-base md:text-lg font-medium capitalize;
 }

@@ -16,3 +16,8 @@ function closeMenu() {
   menu.classList.add("-right-full");
   navOpen.classList.remove("hidden");
 }
+
+/* close menu on menu item click */
+document.querySelectorAll(".nav-link").forEach((item) => {
+  item.addEventListener("click", closeMenu);
+});
