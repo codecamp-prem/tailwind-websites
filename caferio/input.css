@@ -107,3 +107,9 @@
 .popular-dishes-title {
   @apply text-lg md:text-base capitalize text-gray-900;
 }
+.popular-dishes-avg-rating {
+  @apply inline-block text-orange-700 text-sm font-semibold;
+}
+.popular-dishes-total-rater {
+  @apply inline-block text-sm text-gray-500;
+}
