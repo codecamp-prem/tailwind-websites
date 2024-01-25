@@ -88,3 +88,7 @@
 .category-name {
   @apply text-white text-base md:text-lg font-medium capitalize z-20;
 }
+/*Popular Dishes*/
+.popular-dishes {
+  @apply mt-[96px] bg-gradient-to-b from-orange-50/70 to-transparent -skew-y-2 py-20;
+}

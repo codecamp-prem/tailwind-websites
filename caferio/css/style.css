@@ -531,8 +531,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
-.w-full {
-  width: 100%;
+.skew-y-2 {
+  --tw-skew-y: 2deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .items-center {
@@ -545,10 +546,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.p-3 {
-  padding: 0.75rem;
 }
 
 .pt-28 {
@@ -955,29 +952,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 640px) {
-  .sm\:w-6\/12 {
-    width: 50%;
-  }
-}
+/*Popular Dishes*/
 
-@media (min-width: 768px) {
-  .md\:w-4\/12 {
-    width: 33.333333%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:w-2\/12 {
-    width: 16.666667%;
-  }
+.popular-dishes {
+  margin-top: 96px;
+  --tw-skew-y: -2deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: rgb(255 247 237 / 0.7);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 247 237 / 0));
+  --tw-gradient-to: transparent;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 @media (min-width: 1280px) {
-  .xl\:w-\[20\%\] {
-    width: 20%;
-  }
-
   .xl\:pt-20 {
     padding-top: 5rem;
   }
