@@ -92,3 +92,6 @@
 .popular-dishes {
   @apply mt-[96px] bg-gradient-to-b from-orange-50/70 to-transparent -skew-y-2 py-20;
 }
+.popular-dishes-image {
+  @apply w-full h-[190px] overflow-hidden rounded-tl-2xl rounded-tr-2xl;
+}

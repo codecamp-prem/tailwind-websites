@@ -966,6 +966,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 5rem;
 }
 
+.popular-dishes-image {
+  height: 190px;
+  width: 100%;
+  overflow: hidden;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
 @media (min-width: 1280px) {
   .xl\:pt-20 {
     padding-top: 5rem;
