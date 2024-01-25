@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*common css*/
 .image-cover {
   @apply w-full h-full object-cover;
 }
@@ -19,7 +21,15 @@
 .heading {
   @apply text-lg uppercase text-orange-500 font-medium mb-5 underline decoration-orange-500 decoration-wavy decoration-4 underline-offset-[5px];
 }
-
+.btn {
+  @apply inline-block px-4 py-2 text-white capitalize text-sm transition-all duration-500 rounded;
+}
+.btn-default {
+  @apply bg-orange-600 focus:ring-2 ring-offset-2 ring-orange-400;
+}
+.btn-lg {
+  @apply py-3 px-5 text-base font-medium;
+}
 /*Header left col*/
 .header-left-col {
   @apply w-full lg:w-6/12 p-5;
@@ -122,12 +132,6 @@
 .popular-dishes-discount {
   @apply line-through text-base text-gray-400;
 }
-.btn {
-  @apply inline-block px-4 py-2 text-white capitalize text-sm transition-all duration-500 rounded;
-}
-.btn-default {
-  @apply bg-orange-600 focus:ring-2 ring-offset-2 ring-orange-400;
-}
 /* Pricing */
 .pricing {
   @apply py-20;
@@ -136,7 +140,7 @@
   @apply w-full sm:w-8/12 md:w-7/12 lg:w-5/12 xl:w-4/12 p-6;
 }
 .pricing-card {
-  @apply bg-yellow-50 px-10 py-20 rounded-lg border-2 border-yellow-300 border-dashed;
+  @apply bg-yellow-50 px-10 pt-20 pb-10 rounded-lg border-2 border-yellow-300 border-dashed;
 }
 .pricing-heading {
   @apply text-center uppercase text-xl font-semibold text-orange-700;
