@@ -185,3 +185,15 @@
 .testimonials-comment-col {
   @apply w-full sm:w-6/12 p-6;
 }
+.testimonials-user {
+  @apply flex items-center mb-4;
+}
+.testimonials-user-img {
+  @apply block w-[60px] h-[60px] rounded-full overflow-hidden;
+}
+.testimonials-user-name {
+  @apply block text-base font-medium capitalize text-slate-600 leading-[16px];
+}
+.testimonials-user-twitter {
+  @apply text-xs text-orange-700 font-medium;
+}
