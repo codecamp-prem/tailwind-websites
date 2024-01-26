@@ -214,8 +214,8 @@
 }
 /*light-box section*/
 .lightbox {
-  @apply fixed inset-0 w-full h-full bg-black/80 z-50 flex items-center justify-center;
+  @apply fixed inset-0 w-full h-full bg-black/80 z-50 flex items-center justify-center transition-all duration-500;
 }
 .lightbox-body {
-  @apply bg-white w-[90%] max-h-[500px] h-full overflow-hidden;
+  @applyp-6 sm:p-0 w-auto max-h-[500px] h-full overflow-hidden;
 }
