@@ -166,3 +166,13 @@
 .pricing-list-feature {
   @apply capitalize text-gray-700 text-base;
 }
+/*testimonials*/
+.testimonials {
+  @apply py-20 bg-gradient-to-b from-orange-50/70 to-transparent;
+}
+.testimonials-heading-block {
+  @apply w-full md:w-10/12 lg:w-7/12;
+}
+.testimonials-heading {
+  @apply text-3xl font-semibold text-gray-900 mt-8;
+}

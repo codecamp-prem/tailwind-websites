@@ -1357,6 +1357,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+/*testimonials*/
+
+.testimonials {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: rgb(255 247 237 / 0.7);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 247 237 / 0));
+  --tw-gradient-to: transparent;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.testimonials-heading-block {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .testimonials-heading-block {
+    width: 83.333333%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonials-heading-block {
+    width: 58.333333%;
+  }
+}
+
+.testimonials-heading {
+  margin-top: 2rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
 @media (min-width: 1280px) {
   .xl\:pt-20 {
     padding-top: 5rem;
