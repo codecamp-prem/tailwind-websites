@@ -1393,6 +1393,39 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.testimonials-left-col {
+  width: 100%;
+  padding: 0.75rem;
+}
+
+@media (min-width: 1024px) {
+  .testimonials-left-col {
+    width: 66.666667%;
+  }
+}
+
+.testimonials-right-col {
+  width: 100%;
+  padding: 0.75rem;
+}
+
+@media (min-width: 1024px) {
+  .testimonials-right-col {
+    width: 33.333333%;
+  }
+}
+
+.testimonials-comment-col {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .testimonials-comment-col {
+    width: 50%;
+  }
+}
+
 @media (min-width: 1280px) {
   .xl\:pt-20 {
     padding-top: 5rem;

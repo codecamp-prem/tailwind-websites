@@ -176,3 +176,12 @@
 .testimonials-heading {
   @apply text-3xl font-semibold text-gray-900 mt-8;
 }
+.testimonials-left-col {
+  @apply w-full lg:w-8/12 p-3;
+}
+.testimonials-right-col {
+  @apply w-full lg:w-4/12 p-3;
+}
+.testimonials-comment-col {
+  @apply w-full sm:w-6/12 p-6;
+}
