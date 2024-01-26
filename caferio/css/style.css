@@ -1463,6 +1463,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(194 65 12 / var(--tw-text-opacity));
 }
 
+.testimonials-review {
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  line-height: 28px;
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.testimonials-review-quote {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: -10;
+  font-size: 8rem;
+  line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+  opacity: .2;
+}
+
 @media (min-width: 1280px) {
   .xl\:pt-20 {
     padding-top: 5rem;

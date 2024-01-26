@@ -197,3 +197,9 @@
 .testimonials-user-twitter {
   @apply text-xs text-orange-700 font-medium;
 }
+.testimonials-review {
+  @apply text-base text-gray-600 leading-[28px] relative;
+}
+.testimonials-review-quote {
+  @apply absolute top-3 left-3 text-9xl -z-10 text-orange-500 opacity-[.2];
+}
