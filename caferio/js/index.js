@@ -49,3 +49,7 @@ lightBox.addEventListener("click", function (e) {
   lightBox.classList.add("scale-0");
   lightBox.classList.remove("scale-100");
 });
+
+// get year
+const getYear = new Date().getFullYear();
+document.querySelector(".currentYear").innerHTML = getYear;

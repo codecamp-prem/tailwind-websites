@@ -525,6 +525,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
+.-mx-4 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
 .-ml-5 {
   margin-left: -1.25rem;
 }
@@ -1612,6 +1617,65 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+/*footer section*/
+
+.ficon:hover {
+  filter: invert(19%) sepia(11%) saturate(464%) hue-rotate(130deg)
+    brightness(89%) contrast(85%);
+}
+
+.footer {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.footer-logo-col {
+  width: 100%;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .footer-logo-col {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-logo-col {
+    width: 33.333333%;
+  }
+}
+
+.footer-logo-link {
+  display: inline-block;
+  height: 35px;
+  width: auto;
+}
+
+.footer-copyright {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+  .footer-copyright {
+    width: 66.666667%;
+  }
+}
+
+.footer-socials {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-socials > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 @media (min-width: 1280px) {

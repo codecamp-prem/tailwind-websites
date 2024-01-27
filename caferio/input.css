@@ -232,3 +232,23 @@
 .download-paragraph {
   @apply text-gray-800 mt-4;
 }
+/*footer section*/
+.ficon:hover {
+  filter: invert(19%) sepia(11%) saturate(464%) hue-rotate(130deg)
+    brightness(89%) contrast(85%);
+}
+.footer {
+  @apply py-28;
+}
+.footer-logo-col {
+  @apply w-full sm:w-6/12 md:w-4/12 p-4;
+}
+.footer-logo-link {
+  @apply inline-block w-auto h-[35px];
+}
+.footer-copyright {
+  @apply mt-3 text-base xl:w-8/12;
+}
+.footer-socials {
+  @apply mt-3 flex space-x-4 flex-wrap;
+}
