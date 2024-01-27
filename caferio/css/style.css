@@ -549,6 +549,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 1rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -563,6 +567,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-4 {
   height: 1rem;
+}
+
+.h-\[450px\] {
+  height: 450px;
 }
 
 .w-6 {
@@ -1569,6 +1577,41 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('../images/appDownload/app-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.download-col {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .download-col {
+    width: 66.666667%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .download-col {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .download-col {
+    width: 41.666667%;
+  }
+}
+
+.download-heading {
+  margin-top: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+}
+
+.download-paragraph {
+  margin-top: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1280px) {
