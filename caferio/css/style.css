@@ -1678,6 +1678,46 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.footer-menu-col {
+  width: 50%;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .footer-menu-col {
+    width: 25%;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-menu-col {
+    width: 33.333333%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-menu-col {
+    width: 16.666667%;
+  }
+}
+
+.footer-heading {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.footer-ul-li {
+  margin-top: 0.75rem;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
 @media (min-width: 1280px) {
   .xl\:pt-20 {
     padding-top: 5rem;
