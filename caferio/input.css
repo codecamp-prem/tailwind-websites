@@ -217,5 +217,9 @@
   @apply fixed inset-0 w-full h-full bg-black/80 z-50 flex items-center justify-center transition-all duration-500;
 }
 .lightbox-body {
-  @applyp-6 sm:p-0 w-auto max-h-[500px] h-full overflow-hidden;
+  @apply p-6 sm:p-0 w-auto max-h-[500px] h-full overflow-hidden;
+}
+/*download section*/
+.download {
+  @apply bg-[url('../images/appDownload/app-bg.png')] bg-cover w-full h-[450px] bg-no-repeat;
 }
